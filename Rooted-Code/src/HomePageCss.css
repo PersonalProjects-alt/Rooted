@@ -1,0 +1,255 @@
+
+
+.main_page_div2 {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 50px;
+}
+
+.h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.ai_box {
+    display: inline-flex;
+    /* size to content + allow icon/text */
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    /* space between icon and text */
+
+    padding: 6px 14px;
+    /* pill-like padding */
+    border-radius: 9999px;
+    /* full pill */
+
+    border: 1px solid #fdecad;
+    background-color: #fef3cc;
+    color: #92400e;
+
+    width: auto;
+    /* don’t stretch */
+    height: auto;
+    max-width: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.explore_styles_box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+
+  padding: 10px 30px;
+  border-radius: 9999px;
+
+  background: linear-gradient(135deg, #f5980c, #f44556); /* ✅ button gradient */
+  color: white;                                         /* ✅ white text */
+
+  border: none;
+
+  width: auto;
+  height: auto;
+  max-width: none;
+
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.browse_products_box {
+  display: inline-flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  border: 1px solid #efeeed;
+
+  padding: 10px 35px;
+  border-radius: 9999px;
+
+    background-color: #ffffff;
+  color: black;                                         /* ✅ white text */
+
+  border: none;
+
+  width: auto;
+  height: auto;
+  max-width: none;
+
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+
+.embrace_your {
+    color: black;
+    font-size: 40px;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+
+.natural_crown {
+    background: -webkit-linear-gradient(#da7606, #e7461d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 0px;
+
+}
+
+.text1 {
+    color: #57534e;
+    font-size: 20px;
+    line-height: 160%;
+}
+
+.haircarebutton_parent_div{
+    width: auto;
+    max-width: none;
+    background-color: #FFF7E8;
+    border-radius: 20px;
+    padding: 20px;
+    gap: 16px;
+    align-items: flex-start;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.08);
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.hair_care_icon_box {
+  width: 44px;
+  height: 44px;
+  background-color: #FFA726;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+
+.hair_care_title {
+    margin: 0;
+    font-size: 21px;
+    font-weight: 600;
+    color: #111;
+}
+
+.hair_care_description {
+    margin: 6px 0 12px;
+    font-size: 14px;
+    color: #666;
+}
+
+.hair_care_text_arrow {
+    font-size: 14px;
+    font-weight: 600;
+    color: #111;
+}
+
+.hair_care_intor_title {
+    color: black;
+    font-size: 25px;
+    font-weight: lighter;
+    margin-bottom: 0px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hair_care_intor_description {
+    color: #333333;
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 0px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.wellness_box {
+  border-radius: 24px;
+  background: linear-gradient(180deg, #fff7eb 0%, #ffe9c7 100%);
+  padding: 40px 32px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  max-width: 360px;  /* tweak to match your layout */
+  margin: 0 auto 30px;
+}
+
+/* Title */
+.wellness_title {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 200;
+  color: #3b2a1a;
+}
+
+/* Subtitle */
+.wellness_subtitle {
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.6;
+  color: #7a6a5a;
+  max-width: 320px; /* keeps lines similar to screenshot */
+}
+
+
+.wellness_cards_container {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  padding: 30px;
+}
+
+/* Individual Card */
+.wellness_card {
+  background-color: #fffaf1;
+  border-radius: 24px;
+  padding: 28px 22px;
+  text-align: center;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Circle Icon */
+.wellness_icon {
+  width: 56px;
+  height: 56px;
+  background-color: #ffd98a;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  margin-bottom: 16px;
+  color: #b45309;
+}
+
+/* Title */
+.wellness_card_title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #2b2b2b;
+  margin: 0 0 10px;
+}
+
+/* Description */
+.wellness_card_text {
+  font-size: 14px;
+  color: #7a6a5a;
+  line-height: 1.6;
+  max-width: 240px;
+  margin: 0;
+}
+

@@ -1,5 +1,6 @@
 {
   "name": "rooted-code",
+  "homepage": "https:/PersonalProjects-alt.github.io/Rooted/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,9 +8,14 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+
+
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "hamburger-react": "^2.5.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
